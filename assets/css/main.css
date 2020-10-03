@@ -123,7 +123,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: rgb(121, 24, 160);
+		color: rgb(195, 154, 241);
 		text-decoration: none;
 	}
 
@@ -2109,8 +2109,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: rgb(121, 24, 160);
-			box-shadow: 0 0 0 2px rgb(121, 24, 160);
+			border-color: rgb(195, 154, 241);
+			box-shadow: 0 0 0 2px rgb(195, 154, 241);
 		}
 
 	select {
@@ -2215,8 +2215,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: rgb(121, 24, 160);
-			box-shadow: 0 0 0 1px rgb(121, 24, 160);
+			border-color: rgb(195, 154, 241);
+			box-shadow: 0 0 0 1px rgb(195, 154, 241);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2422,7 +2422,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: rgb(121, 24, 160);
+				background: rgb(195, 154, 241);
 				color: #ffffff;
 			}
 
@@ -2764,7 +2764,7 @@
 	.narrow_button {
 		height: 2em;
 		line-height: 2em;
-		margin-bottom: 1em;
+		margin-bottom: 4em;
 	}
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2853,7 +2853,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: rgb(121, 24, 160);
+			background-color: rgb(195, 154, 241);
 			color: #ffffff !important;
 		}
 
@@ -3134,7 +3134,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: rgb(121, 24, 160);
+				background: rgb(195, 154, 241);
 				color: #ffffff;
 			}
 
@@ -3168,12 +3168,12 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/sutro.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 7em 0 20em 0;
 		text-align: center;
 	}
 
@@ -3308,7 +3308,7 @@
 /* CTA */
 
 	#cta {
-		background: rgb(121, 24, 160);
+		background: rgb(195, 154, 241);
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3330,7 +3330,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: rgb(121, 24, 160);
+			color: rgb(195, 154, 241);
 		}
 
 		#cta input[type="text"],
@@ -3903,12 +3903,19 @@
 	}
 
 	.icon {
-  display: inline-block;
-  width: 7em;
-  height: 7em;
+  display: flex;
+  width: 6em;
+  height: 6em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  margin: 2em;
 }
 
 
+#adrian {
+	border-radius: 200px;
+    border: 6px solid rgb(195, 154, 241);;
+	box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.33);
+margin-top: 5em;
+}
