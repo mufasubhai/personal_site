@@ -2431,6 +2431,8 @@
 			width: 40px;
 		}
 
+		
+
 		.icon.major {
 
 			color: #ffffff;
@@ -3953,3 +3955,14 @@
 	box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.33);
 margin-top: 6em;
 }
+
+.brands {
+	height: 3em;
+	width: 3em;
+}
+
+
+.brands:hover {
+	fill: #1ec9ac;
+}
+	
