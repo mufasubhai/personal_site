@@ -2356,7 +2356,7 @@
 
 		.box.special {
 			text-align: center;
-			height: 500px;
+			/* height: 500px; */
 		}
 		.box.special p {
 			height: 140px;
@@ -3978,4 +3978,8 @@ margin-top: 6em;
 .github_button:hover {
 	cursor: pointer;
 
+}
+
+.project_container {
+	height:550px;
 }
