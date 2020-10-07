@@ -2356,8 +2356,11 @@
 
 		.box.special {
 			text-align: center;
+			height: 500px;
 		}
-
+		.box.special p {
+			height: 140px;
+		}
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
@@ -2859,6 +2862,7 @@
 			box-shadow: inset 0 0 0 2px #e5e5e5;
 			color: #777;
 		}
+		margin-right: 20px;
 
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
@@ -3966,3 +3970,12 @@ margin-top: 6em;
 	fill: #1ec9ac;
 }
 	
+
+.github_button {
+	padding-left: 20px;
+}
+
+.github_button:hover {
+	cursor: pointer;
+
+}
